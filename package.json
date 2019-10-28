@@ -1,0 +1,13 @@
+{
+  "name": "sample-node-app-error" // This  comment is invalid for JSON and produces a build error. Also missing a comma (in case comments are supported in JSON one day)
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "~4.16.3",
+    "jade": "~1.11.0",
+    "nconf": "^0.8.4"
+  }
+}
